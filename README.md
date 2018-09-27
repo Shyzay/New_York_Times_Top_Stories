@@ -1,4 +1,4 @@
-# New_York_Times_Top_Stories
+# New York Times Top Stories
 This application will display the 5 most popular articles (most viewed over the last 3 hours) 
 from the New York Times nytimes.com website. 
 It will have the title of the article, a link to the article, the byline, and the published date.
