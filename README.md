@@ -22,15 +22,22 @@ The Database will be designed with **MongoDB**.
 My [Trello Task Board](https://trello.com/b/goXf0uUb/new-york-times-top-stories-project)
 
 
+
+
 ## Wireframe for this application 
 
 
 ### Landing page
 
+---
+
 ![ ](https://user-images.githubusercontent.com/37116552/46248387-900b9880-c410-11e8-8592-0d65146323db.jpg)
 
 
 
+
 ### When you click on the link for the news
+
+---
 
 ![ ](https://user-images.githubusercontent.com/37116552/46248430-20e27400-c411-11e8-8fd5-a829e5aae833.jpg)
