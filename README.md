@@ -8,15 +8,16 @@ It will be able to cache data fetched from the external API into a local databas
 
 This application will be developed with these technologies 
 
-..* Flask
-..* Python
-..* HTML and CSS
-..* Javascript
-..* Test Driven Development
-..* Travis CI
-..* Virtual Environment
 
-The Database will be designed with MongoDB.
+* **Flask**
+* **Python**
+* **HTML and CSS**
+* **Javascript**
+* **Test Driven Development**
+* **Travis CI**
+* **Virtual Environment**
+
+The Database will be designed with **MongoDB**.
 
 The link to my Trello Task Board is https://trello.com/b/goXf0uUb/new-york-times-top-stories-project
 
