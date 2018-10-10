@@ -52,7 +52,23 @@ My [Trello Task Board](https://trello.com/b/goXf0uUb/new-york-times-top-stories-
 
 
 
+* Copy or clone the file to your local system
+* Open in your favourite Editor or IDE, for me I used **Pyscripter**
 
+In this file we are importing the flask library in the first line. If you do not have that library installed, you will get an error.
+
+
+*So this is what to do.*
+
+* Install flask, by simply typing `pip install flask` in your command line and hit **enter** button. Once you are pretty sure flask is installed, 
+* Simply run the **hello.py** script. You can run this by typing `python hello.py` on your command line, followed by the **enter** button
+* Once you run the script, your website should now be live on your local machine and can be viewed by typing `localhost:5000` in your browser and send it.
+
+**Boom!** There you go.
+
+Can you see the **Hello World**? If you can, 
+
+:clap::clap::clap: **Congratulations** you just lauched a website.
 
 
 
