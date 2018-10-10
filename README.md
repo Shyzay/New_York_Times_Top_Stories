@@ -35,12 +35,6 @@ My [Trello Task Board](https://trello.com/b/goXf0uUb/new-york-times-top-stories-
 
 
 
-# How to Run The Hello.py file
-
-
-
-
-
 
 
 ### When you click on the link for the news
@@ -48,3 +42,20 @@ My [Trello Task Board](https://trello.com/b/goXf0uUb/new-york-times-top-stories-
 ---
 
 ![ ](https://user-images.githubusercontent.com/37116552/46248430-20e27400-c411-11e8-8fd5-a829e5aae833.jpg)
+
+
+
+
+
+
+## How to Run The hello.py file
+
+
+
+
+
+
+
+
+
+
