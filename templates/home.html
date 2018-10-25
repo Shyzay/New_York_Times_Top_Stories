@@ -10,59 +10,28 @@
 <div class="jumbotron">
 <div class="container">
 <h1>Welcome to As E Dey Hot</h1>
-<p>Where New York Top Stories are found.</p>
+<p><i>New York Times Top Stories, Lives here.</i></p>
 </div>
 </div>
 
-<div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-5">          
-          
-		</div>          
-      </div>
-        <div class="col-md-7">
-          <h2>Persius nominavi usu in</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna condimentum mattis pellentesque.</p><br><br>
-          <span><i>By</i> DOLORE MAGNA</span><br><br>
-          <span>12 Oct, 2018</span>
-          <p><a class="btn btn-default" href="#" role="button">tempor &raquo;</a></p>
-        </div>
-</div>
-<div class="container"><br><br>
-      <!-- Row of columns -->
-      <div class="row">
-        <div class="col-md-3">          
-          <h3>Etiam porta</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. </p><br>
-          <span><i>By</i> DOLORE MAGNA</span><br><br>
-          <span>12 Oct, 2018</span>
-          <p><a class="btn btn-default" href="#" role="button">tempor &raquo;</a></p>
-        </div>
-        <div class="col-md-3">
-          <h3>Etiam porta</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. </p><br>
-          <span><i>By</i> DOLORE MAGNA</span><br><br>
-          <span>12 Oct, 2018</span>
-          <p><a class="btn btn-default" href="#" role="button">tempor &raquo;</a></p>
-		</div>
-       <div class="col-md-3">
-           <h3>Fusce dapibus</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. </p><br>
-          <span><i>By</i> DOLORE MAGNA</span><br><br>
-          <span>12 Oct, 2018</span>
-          <p><a class="btn btn-default" href="#" role="button">tempor &raquo;</a></p>
-        </div>
-        <div class="col-md-3">
-          <h3>Fusce dapibus</h3>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. </p><br>
-          <span><i>By</i> DOLORE MAGNA</span><br><br>
-          <span>12 Oct, 2018</span>
-          <p><a class="btn btn-default" href="#" role="button">tempor &raquo;</a></p>
-        </div>
-      </div>
-      
+     
 
+    
+      <div class="container">
+          <div class="row">
+          {% for data in render_data %}
+        <div class="col-sm-4">
+          <h3>{{ data.title }}</h3>
+            <p>{{ data.byline}}</p>
+            <p>{{ data.published_date}}</p>
+          <p><a class="col-sm-4 btn btn-default" href="{{ data.url }}" role="button">Read &raquo;</a></p>
+        </div>
+          {% endfor %}
+      </div>
+      </div>
+
+         
+     
 <!-- The curly brackets ended here -->
 {% endblock %}
 <!-- ends here -->
