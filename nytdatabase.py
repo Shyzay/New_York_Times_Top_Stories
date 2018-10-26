@@ -72,9 +72,3 @@ class DataBase(object):
 
 
 
-#k=DataBase()
-#x=[1,2,3]
-#k.insert_data(x,datetime.now())
-#y=k.retrive_data()
-#print(len(y))
-#print(k.is_greater_than_cach_time(datetime.now()))
