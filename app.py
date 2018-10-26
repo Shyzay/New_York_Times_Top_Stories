@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import mysql.connector as mariadb
 import requests
 from envparse import env
 from nytdatabase import DataBase
@@ -28,6 +27,7 @@ def home():
             print(data[i])
             d = {}
             d['title'] = data[i]['title']
+            d['abstract'] = data[i]['abstract']
             d['byline'] = data[i]['byline']
             d['url'] = data[i]['url']
             d['published_date'] = data[i]['published_date']
@@ -39,10 +39,6 @@ def home():
     #print(render_data)
     return render_template('home.html', render_data= render_data)
 
-
-@app.route('/about/')
-def about():
-	return render_template('about.html')
 
 if __name__ == '__main__':
 	app.run(debug=True)
