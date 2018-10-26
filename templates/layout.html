@@ -3,37 +3,31 @@
 
 <!--  Inserted the linking code to our CSS & Bootstrap by addig a head section -->
 <head>
-<title>As E Dey Hot - Top Stories</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="static/css/style.css" />
+        <title>As E Dey Hot - NY Times Online Top Stories </title>
 </head>
 <!-- ends here -->
 
-<body>
-<header>
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">As E Dey Hot</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-          </ul>          
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-
-
-</header>
+<body id="home">
+		<div id="wrapper">
+		
+            <!--__--__--__--__--__--  L O G O  &   N A V   B A R --__--___--__--__--__-->
+			<header>
+				<div id="logo">
+				<h1>As E Dey Hot...</span></h1>
+				<div id="tagline">
+					<h2>NY Times Top Stories Lives here !</h2>
+				</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="{{ url_for('home')}}" id="homenav">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			    
 
 <!--  The two lines with curly brackets will be replaced on demand by either the home.html , or
 the about.html code depending on which URL the user is browsing. For that to happen, you also need to edit those two pages so that they connect to the layout.html page-->
@@ -41,20 +35,12 @@ the about.html code depending on which URL the user is browsing. For that to hap
 {% endblock %}
 <!-- ends here -->
 
-<br><br><br>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="#"> asedeyhot.ng</a>
-  </div>
-  <!-- Copyright -->
 
-</footer>
-<!-- Footer -->
-
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<!--__--__--__--__--  T H E    F O O T E R --__--__--__--___--__--__--__-->
+			<footer>
+				<p>Copyright &copy 2018 As E Dey Hot. All Rights Reserved.</p>
+			</footer>
+		</div>			        
    </body>
 </html>
