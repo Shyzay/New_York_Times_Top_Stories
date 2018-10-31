@@ -12,7 +12,6 @@ This application will be developed with these technologies
 * **Flask**
 * **Python**
 * **HTML and CSS**
-* **Javascript**
 * **Test Driven Development**
 * **Travis CI**
 * **Virtual Environment**
